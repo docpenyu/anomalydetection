@@ -1,0 +1,176 @@
+{% extends "base.html" %}
+{#{% load static %}#}
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <script src="{% static 'js/echarts.js' %}"></script>#}
+{#    <title>样本数据可视化</title>#}
+{#</head>#}
+{#<body>#}
+{% block title %}
+    <title>同比环比比较</title>
+{% endblock %}
+{% block mainbody %}
+<div style="height: 750px;width: 1400px;margin: auto;top: 0;left: 0;right:0;bottom:0">
+    <div style="height:100%;width: 19%;float: left">
+       <label style="font-size: 16px">请选择查询条件：</label>
+        <form name="compareesform" action="{% url 'SampleManage:comparees' %}" method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="提交"/>
+        </form>
+    </div>
+
+ <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+{#<div id="main" style="width:1350px;height:700px;"></div>#}
+    <div id="main1" style="height:33%;width: 80%;float:right"></div>
+    <div id="main2" style="height:33%;width: 80%;float:right"></div>
+    <div id="main3" style="height:33%;width: 80%;float:right"></div>
+</div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var maxvalue = {{ max}};
+        var minvalue = {{ min }};
+        var myChart1 = echarts.init(document.getElementById('main1'));
+        // 指定图表的配置项和数据
+        var datasets1 = {{ list1|safe }};
+        var option1 = {
+            title: {
+            text: "{{ nodename }}-{{ metric }}"
+            },
+            legend: {},
+            tooltip: {
+                trigger:'axis',
+            },
+            dataZoom:[{
+                type:'inside',
+                start: 0,
+                end: 100,
+            },{
+        start: 0,
+        end: 10,
+        handleSize: '80%',
+        handleStyle: {
+            color: '#fff',
+            shadowBlur: 3,
+            shadowColor: 'rgba(0, 0, 0, 0.6)',
+            shadowOffsetX: 2,
+            shadowOffsetY: 2
+        }
+    }],
+            dataset: {
+                source: datasets1
+             },
+            xAxis: {
+                type: 'time',
+            },
+            yAxis: {
+                max:maxvalue,
+            },
+            series: [
+                {
+                    type: 'line'
+                },
+            ]
+        };
+        // 使用刚指定的配置项和数据显示图表
+        option1.xAxis.type = 'category';
+        myChart1.setOption(option1);
+
+        var myChart2 = echarts.init(document.getElementById('main2'));
+        // 指定图表的配置项和数据
+        var datasets2 = {{ list2|safe }};
+        var option2 = {
+            title: {
+            text: "{{ nodename }}-{{ metric }}"
+            },
+            legend: {},
+            tooltip: {
+                trigger:'axis',
+            },
+            dataZoom:[{
+                type:'inside',
+                start: 0,
+                end: 100,
+            },{
+        start: 0,
+        end: 10,
+        handleSize: '80%',
+        handleStyle: {
+            color: '#fff',
+            shadowBlur: 3,
+            shadowColor: 'rgba(0, 0, 0, 0.6)',
+            shadowOffsetX: 2,
+            shadowOffsetY: 2
+        }
+    }],
+            dataset: {
+                source: datasets2
+             },
+            xAxis: {
+                type: 'time',
+            },
+            yAxis: {
+                 max:maxvalue,
+            },
+            series: [
+                {
+                    type: 'line'
+                },
+            ]
+        };
+        // 使用刚指定的配置项和数据显示图表
+        option2.xAxis.type = 'category';
+        myChart2.setOption(option2);
+
+
+        var myChart3 = echarts.init(document.getElementById('main3'));
+        // 指定图表的配置项和数据
+        var datasets3= {{ list3|safe }};
+        var option3 = {
+            title: {
+            text: "{{ nodename }}-{{ metric }}"
+            },
+            legend: {},
+            tooltip: {
+                trigger:'axis',
+            },
+            dataZoom:[{
+                type:'inside',
+                start: 0,
+                end: 100,
+            },{
+        start: 0,
+        end: 10,
+        handleSize: '80%',
+        handleStyle: {
+            color: '#fff',
+            shadowBlur: 3,
+            shadowColor: 'rgba(0, 0, 0, 0.6)',
+            shadowOffsetX: 2,
+            shadowOffsetY: 2
+        }
+    }],
+            dataset: {
+                source: datasets3
+             },
+            xAxis: {
+                type: 'time',
+            },
+            yAxis: {
+                 max:maxvalue,
+            },
+            series: [
+                {
+                    type: 'line'
+                },
+            ]
+        };
+        // 使用刚指定的配置项和数据显示图表
+        option3.xAxis.type = 'category';
+        myChart3.setOption(option3);
+       </script>
+{% endblock %}
+{#</body>#}
+{#</html>#}

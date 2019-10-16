@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/algorithm/univariate_predictor/ewma.py" line="57" />
+    <bookmark url="file://$PROJECT_DIR$/algorithm/feature/statistical_feature.py" line="282" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40bc9996-ac5d-4a93-838e-6d0722aac28e" name="Default Changelist" comment="iforest">
+      <change afterPath="$PROJECT_DIR$/SampleManage/viewbefore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/feature/feature_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/univariate_predictor/SamplePredict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esconn/ioanomaly/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esconn/ioanomaly/click.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esconn/ioanomaly/dipic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esconn/ioanomaly/ioanomaly2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esconn/ioanomaly/ioanomalyvisual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esconn/ioanomaly/isolation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esconn/ioanomaly/pic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esconn/ioanomaly/queryio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esconn/ioanomaly/read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esconn/qu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleManage/templates/SampleManage/detect_visualizees.html" beforeDir="false" afterPath="$PROJECT_DIR$/SampleManage/templates/SampleManage/detect_visualizees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleManage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SampleManage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleManage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SampleManage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/detection/Iforest.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/detection/Iforest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/feature/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/feature/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/feature/fitting_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/feature/fitting_feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/feature/stastic_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/feature/statistical_feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/univariate_predictor/PredictModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/univariate_predictor/PredictModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/univariate_predictor/ewma.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/univariate_predictor/ewma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esconn/esinteracton.py" beforeDir="false" afterPath="$PROJECT_DIR$/esconn/esinteracton.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AnomalyDetection$query_es_20190929.coverage" NAME="query_es_20190929 Coverage Results" MODIFIED="1569742919568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/esconn" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$PredictModel.coverage" NAME="PredictModel Coverage Results" MODIFIED="1559217670297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/univariate_predictor" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$tttest.coverage" NAME="tttest Coverage Results" MODIFIED="1562671313831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/univariate_predictor" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$queryio.coverage" NAME="queryio Coverage Results" MODIFIED="1570844878828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/esconn/ioanomaly" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$test.coverage" NAME="test Coverage Results" MODIFIED="1558316536613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$manage.coverage" NAME="manage Coverage Results" MODIFIED="1570850674443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$isolation.coverage" NAME="isolation Coverage Results" MODIFIED="1570871548825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/esconn/ioanomaly" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$pic.coverage" NAME="pic Coverage Results" MODIFIED="1570871784715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/esconn/ioanomaly" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$click.coverage" NAME="click Coverage Results" MODIFIED="1570710858598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/esconn/ioanomaly" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$dipic.coverage" NAME="dipic Coverage Results" MODIFIED="1570842731299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/esconn/ioanomaly" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$models.coverage" NAME="models Coverage Results" MODIFIED="1556513118352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SampleManage" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$modelsql.coverage" NAME="modelsql Coverage Results" MODIFIED="1558939919812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SampleManage" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$evaluation.coverage" NAME="evaluation Coverage Results" MODIFIED="1559474583416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/evaluation" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$qu.coverage" NAME="qu Coverage Results" MODIFIED="1569822154185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/esconn" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$ioanomalyvisual.coverage" NAME="ioanomalyvisual Coverage Results" MODIFIED="1570865210086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/esconn/ioanomaly" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$tsne.coverage" NAME="tsne Coverage Results" MODIFIED="1560080564021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$tsne__1_.coverage" NAME="tsne (1) Coverage Results" MODIFIED="1560081228698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SampleManage" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$ioanomaly2.coverage" NAME="ioanomaly2 Coverage Results" MODIFIED="1570865093446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/esconn/ioanomaly" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$read.coverage" NAME="read Coverage Results" MODIFIED="1570007534232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/esconn" />
+    <SUITE FILE_PATH="coverage/AnomalyDetection$queryio__1_.coverage" NAME="queryio (1) Coverage Results" MODIFIED="1570691573290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/esconn/ioanomaly" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1925516285">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="12" />
+          <entry key="html" value="9260" />
+          <entry key="py" value="75278" />
+          <entry key="py@AnomalyDetection" value="463" />
+          <entry key="txt" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CommandLine" value="310" />
+          <entry key="HTML" value="9260" />
+          <entry key="PLAIN_TEXT" value="172" />
+          <entry key="Python" value="75278" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="15" />
+          <entry key="html" value="85" />
+          <entry key="js" value="6" />
+          <entry key="png" value="2" />
+          <entry key="py" value="273" />
+          <entry key="zancun" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="86" />
+          <entry key="Image" value="2" />
+          <entry key="JavaScript" value="6" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="273" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="882809157">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AnomalyDetection" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SampleManage/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13600">
+              <caret line="570" column="41" selection-start-line="570" selection-start-column="41" selection-end-line="570" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1569725113900" expanded="true" signature="14393:14398" ph="..." />
+                <marker date="1569725113900" expanded="true" signature="14486:18431" ph="..." />
+                <marker date="1569725113900" expanded="true" signature="27226:27231" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/ioanomalyvisual.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/isolation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/pic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/ioanomaly2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="34" column="121" selection-start-line="34" selection-start-column="121" selection-end-line="34" selection-end-column="121" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SampleManage/templates/SampleManage/visualizetest.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SampleManage/viewbefore.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1225">
+              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/detection/Iforest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4925">
+              <caret line="207" column="61" selection-start-line="207" selection-start-column="31" selection-end-line="207" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1570022927156" expanded="true" signature="567:847" ph="..." />
+                <marker date="1570022927156" expanded="true" signature="1680:2777" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/univariate_predictor/linearregression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>create</find>
+      <find>argmax</find>
+      <find>pri</find>
+      <find>bool</find>
+      <find>detect</find>
+      <find>anomalyscore</find>
+      <find>epochs</find>
+      <find>predict</find>
+      <find>search_nodename_timestamp_queryjson</find>
+      <find>search_bu</find>
+      <find>host</find>
+      <find>frame</find>
+      <find>search</find>
+      <find>offest</find>
+      <find>offestquery_json</find>
+      <find>offest_queryjson</find>
+      <find>extend_queryjson</find>
+      <find>mds_queryjson</find>
+      <find>load</find>
+      <find>-1</find>
+      <find>,-1</find>
+      <find>46543321.0</find>
+      <find>retag</find>
+      <find>min</find>
+      <find>sne</find>
+      <find>extent</find>
+      <find>str</find>
+      <find>con</find>
+      <find>print</find>
+      <find>dete</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>DecimalField(max_digits=15,decimal_places=3,null=True)</replace>
+      <replace>(max_length=20,null=True)</replace>
+      <replace>metric</replace>
+      <replace>metriclist</replace>
+      <replace>targets</replace>
+      <replace>220</replace>
+      <replace>2</replace>
+      <replace>mds</replace>
+      <replace>extend</replace>
+      <replace>offest</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/algorithm/univariate_predictor/model_setting.py" />
+        <option value="$PROJECT_DIR$/algorithm/univariate_predictor/tttest.py" />
+        <option value="$PROJECT_DIR$/algorithm/univariate_predictor/gpu.py" />
+        <option value="$PROJECT_DIR$/algorithm/univariate_predictor/test.py" />
+        <option value="$PROJECT_DIR$/algorithm/detection/Qfunction.py" />
+        <option value="$PROJECT_DIR$/SampleManage/templates/SampleManage/predeictes.html" />
+        <option value="$PROJECT_DIR$/algorithm/univariate_predictor/swa.py" />
+        <option value="$PROJECT_DIR$/algorithm/univariate_predictor/linearregression.py" />
+        <option value="$PROJECT_DIR$/algorithm/univariate_predictor/evaluation.py" />
+        <option value="$PROJECT_DIR$/algorithm/univariate_predictor/arima.py" />
+        <option value="$PROJECT_DIR$/algorithm/TrainModel.py" />
+        <option value="$PROJECT_DIR$/SampleManage/models.py" />
+        <option value="$PROJECT_DIR$/SampleManage/admin.py" />
+        <option value="$PROJECT_DIR$/AnomalyDetection/urls.py" />
+        <option value="$PROJECT_DIR$/AnomalyDetection/settings.py" />
+        <option value="$PROJECT_DIR$/SampleManage/templates/SampleManage/train.html" />
+        <option value="$PROJECT_DIR$/SampleManage/templates/SampleManage/zancun" />
+        <option value="$PROJECT_DIR$/SampleManage/templates/SampleManage/visualizees.html" />
+        <option value="$PROJECT_DIR$/SampleManage/templates/SampleManage/predict_visualizees.html" />
+        <option value="$PROJECT_DIR$/SampleManage/templates/SampleManage/index.html" />
+        <option value="$PROJECT_DIR$/algorithm/univariate_predictor/lstm.py" />
+        <option value="$PROJECT_DIR$/SampleManage/templates/SampleManage/testform.html" />
+        <option value="$PROJECT_DIR$/SampleManage/templates/base.html" />
+        <option value="$PROJECT_DIR$/SampleManage/forms.py" />
+        <option value="$PROJECT_DIR$/SampleManage/templates/SampleManage/comparees.html" />
+        <option value="$PROJECT_DIR$/algorithm/feature/stastic_feature.py" />
+        <option value="$PROJECT_DIR$/algorithm/feature/classification_feature.py" />
+        <option value="$PROJECT_DIR$/algorithm/detection/__init__.py" />
+        <option value="$PROJECT_DIR$/algorithm/feature/__init__.py" />
+        <option value="$PROJECT_DIR$/esconn/esinteracton.py" />
+        <option value="$PROJECT_DIR$/algorithm/feature/statistical_feature.py" />
+        <option value="$PROJECT_DIR$/algorithm/feature/feature_service.py" />
+        <option value="$PROJECT_DIR$/algorithm/feature/fitting_feature.py" />
+        <option value="$PROJECT_DIR$/SampleManage/viewbefore.py" />
+        <option value="$PROJECT_DIR$/algorithm/univariate_predictor/ewma.py" />
+        <option value="$PROJECT_DIR$/algorithm/univariate_predictor/PredictModel.py" />
+        <option value="$PROJECT_DIR$/SampleManage/urls.py" />
+        <option value="$PROJECT_DIR$/SampleManage/views.py" />
+        <option value="$PROJECT_DIR$/algorithm/univariate_predictor/SamplePredict.py" />
+        <option value="$PROJECT_DIR$/esconn/qu.py" />
+        <option value="$PROJECT_DIR$/esconn/read.py" />
+        <option value="$PROJECT_DIR$/algorithm/detection/Iforest.py" />
+        <option value="$PROJECT_DIR$/esconn/queryio.py" />
+        <option value="$PROJECT_DIR$/esconn/ioanomaly/click.py" />
+        <option value="$PROJECT_DIR$/esconn/ioanomaly/dipic.py" />
+        <option value="$PROJECT_DIR$/esconn/ioanomaly/queryio.py" />
+        <option value="$PROJECT_DIR$/esconn/ioanomaly/ioanomaly2.py" />
+        <option value="$PROJECT_DIR$/esconn/ioanomaly/pic.py" />
+        <option value="$PROJECT_DIR$/SampleManage/templates/SampleManage/detect_visualizees.html" />
+        <option value="$PROJECT_DIR$/esconn/ioanomaly/ioanomalyvisual.py" />
+        <option value="$PROJECT_DIR$/esconn/ioanomaly/isolation.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="576" />
+    <option name="y" value="225" />
+    <option name="width" value="822" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="AnomalyDetection" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="AnomalyDetection" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="SampleManage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="AnomalyDetection" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="SampleManage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="AnomalyDetection" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="SampleManage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="SampleManage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AnomalyDetection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnomalyDetection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnomalyDetection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnomalyDetection" type="462c0819:PsiDirectoryNode" />
+              <item name="esconn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnomalyDetection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnomalyDetection" type="462c0819:PsiDirectoryNode" />
+              <item name="esconn" type="462c0819:PsiDirectoryNode" />
+              <item name="ioanomaly" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IHEP/PycharmProject/AnomalyDetection/SampleManage/admin.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IHEP\PycharmProject\AnomalyDetection\esconn\ioanomaly" />
+      <recent name="D:\IHEP\PycharmProject\AnomalyDetection\algorithm" />
+      <recent name="D:\IHEP\PycharmProject\AnomalyDetection\esconn" />
+      <recent name="D:\IHEP\PycharmProject\AnomalyDetection\SampleManage" />
+      <recent name="D:\IHEP\PycharmProject\AnomalyDetection\SampleManage\templates\SampleManage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IHEP\PycharmProject\AnomalyDetection\PIC" />
+      <recent name="D:\IHEP\PycharmProject\AnomalyDetection\SampleManage\templates\SampleManage" />
+      <recent name="D:\IHEP\PycharmProject\AnomalyDetection\static\jquery" />
+      <recent name="D:\IHEP\PycharmProject\AnomalyDetection\SampleManage\static\js" />
+      <recent name="D:\IHEP\PycharmProject\AnomalyDetection\SampleManage\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.AnomalyDetection">
+    <configuration name="ioanomaly2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AnomalyDetection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/esconn/ioanomaly" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/esconn/ioanomaly/ioanomaly2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ioanomalyvisual" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AnomalyDetection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/esconn/ioanomaly" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/esconn/ioanomaly/ioanomalyvisual.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="isolation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AnomalyDetection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/esconn/ioanomaly" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/esconn/ioanomaly/isolation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AnomalyDetection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AnomalyDetection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/esconn/ioanomaly" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/esconn/ioanomaly/pic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AnomalyDetection" type="Python.DjangoServer" factoryName="Django server">
+      <module name="AnomalyDetection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="AnomalyDetection.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.AnomalyDetection" />
+      <item itemvalue="Python.pic" />
+      <item itemvalue="Python.ioanomaly2" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.ioanomalyvisual" />
+      <item itemvalue="Python.isolation" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pic" />
+        <item itemvalue="Python.isolation" />
+        <item itemvalue="Python.ioanomalyvisual" />
+        <item itemvalue="Python.ioanomaly2" />
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40bc9996-ac5d-4a93-838e-6d0722aac28e" name="Default Changelist" comment="" />
+      <created>1555317976589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555317976589</updated>
+    </task>
+    <task id="LOCAL-00001" summary="iforest">
+      <created>1560261173912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560261173912</updated>
+    </task>
+    <task id="LOCAL-00002" summary="iforest">
+      <created>1560261356123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560261356123</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.15831557" />
+      <window_info id="Structure" order="1" sideWeight="0.50174826" side_tool="true" weight="0.22647887" />
+      <window_info id="Favorites" order="2" sideWeight="0.5008264" side_tool="true" weight="0.21231672" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30010834" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4409534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="manage.py@AnomalyDetection" order="10" weight="0.29469123" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32827735" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.141258" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.15671642" />
+      <window_info id="Structure" order="1" sideWeight="0.50174826" side_tool="true" weight="0.22647887" />
+      <window_info id="Favorites" order="2" sideWeight="0.5008264" side_tool="true" weight="0.21231672" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26977247" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26868907" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="manage.py@AnomalyDetection" order="10" weight="0.29469123" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32827735" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.06769723" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="iforest" />
+    <option name="LAST_COMMIT_MESSAGE" value="iforest" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/TrainModel.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/feature/feature_service.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/django2/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="129" column="65" lean-forward="true" selection-start-line="129" selection-start-column="65" selection-end-line="129" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnomalyDetection/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnomalyDetection/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+          <folding>
+            <element signature="e#315#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleManage/templates/SampleManage/predict_visualizees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="44" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleManage/templates/SampleManage/testform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleManage/templates/SampleManage/visualizees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleManage/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="34" column="88" selection-start-line="34" selection-start-column="88" selection-end-line="34" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleManage/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="450" column="10" selection-start-line="450" selection-start-column="10" selection-end-line="450" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/django2/Lib/site-packages/statsmodels/distributions/edgeworth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/django2/Lib/site-packages/keras/engine/training_arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/features.py" />
+    <entry file="file://$PROJECT_DIR$/SampleManage/templates/SampleManage/comparees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-389">
+          <caret line="88" column="22" lean-forward="true" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/feature/classification_feature.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/detection/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/feature/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/django2/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="1386" selection-start-line="1386" selection-end-line="1386" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/django2/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/feature/feature_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/feature/statistical_feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1575">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/feature/fitting_feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1233">
+          <caret line="50" column="66" lean-forward="true" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/detection/Qfunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1075">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/univariate_predictor/lstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="743" column="8" selection-start-line="743" selection-start-column="8" selection-end-line="743" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleManage/templates/SampleManage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/univariate_predictor/ewma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleManage/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ES_代码/query_es.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/univariate_predictor/PredictModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/univariate_predictor/SamplePredict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/query_es_20190929.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="86" column="23" lean-forward="true" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/django2/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/django2/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="6368" selection-start-line="6368" selection-end-line="6368" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/TrainModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1562656920351" expanded="true" signature="1510:1529" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/predata.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/traindata.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="218" selection-start-line="5" selection-start-column="218" selection-end-line="5" selection-end-column="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/dipic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="47" column="102" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/click.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/esinteracton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="298" column="5" selection-start-line="298" selection-start-column="5" selection-end-line="298" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/qu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="67" column="65" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleManage/templates/SampleManage/detect_visualizees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleManage/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13600">
+          <caret line="570" column="41" selection-start-line="570" selection-start-column="41" selection-end-line="570" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1569725113900" expanded="true" signature="14393:14398" ph="..." />
+            <marker date="1569725113900" expanded="true" signature="14486:18431" ph="..." />
+            <marker date="1569725113900" expanded="true" signature="27226:27231" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/isolation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/ioanomaly2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="34" column="121" selection-start-line="34" selection-start-column="121" selection-end-line="34" selection-end-column="121" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleManage/templates/SampleManage/visualizetest.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleManage/viewbefore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/detection/Iforest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4925">
+          <caret line="207" column="61" selection-start-line="207" selection-start-column="31" selection-end-line="207" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1570022927156" expanded="true" signature="567:847" ph="..." />
+            <marker date="1570022927156" expanded="true" signature="1680:2777" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/univariate_predictor/linearregression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/queryio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="302" column="4" selection-start-line="302" selection-start-column="4" selection-end-line="302" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esconn/ioanomaly/ioanomalyvisual.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
